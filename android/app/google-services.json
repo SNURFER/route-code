@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "524150421075",
+    "project_id": "hmc-map-f3ce4",
+    "storage_bucket": "hmc-map-f3ce4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524150421075:android:5af678c17781b1677eb8a6",
+        "android_client_info": {
+          "package_name": "com.example.hmc_map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524150421075-kmgv21hcmdp5lqmogibme0ugf3detm0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmKguGH75daZo8i_QM7r9XsVxvM7l7rg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524150421075-kmgv21hcmdp5lqmogibme0ugf3detm0j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "524150421075-14id5ulevd34tjo51p42civh7ctmbc5a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hmcMap"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
