@@ -3,14 +3,14 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:geolocator/geolocator.dart';
 
 
-class MapWidget extends StatefulWidget {
+class CurrentPosMap extends StatefulWidget {
 
   @override
   _MapWidgetState createState() => _MapWidgetState();
 
 }
 
-class _MapWidgetState extends State<MapWidget> {
+class _MapWidgetState extends State<CurrentPosMap> {
   late GoogleMapController _mapController;
   LatLng _center = LatLng(37.5070, 127.0586);
   LatLng _camPosition = LatLng(37, 127);

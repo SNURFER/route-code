@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hmc_map/location.dart';
-import 'package:hmc_map/map.dart';
-import 'package:hmc_map/map3.dart';
+import 'package:hmc_map/current_pos_map.dart';
+import 'package:hmc_map/saved_pos_map.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 
@@ -28,7 +28,7 @@ class MainPage extends StatelessWidget {
                 trailing: const Icon(Icons.navigate_next),
                 onTap: () async {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => MapWidget())
+                      MaterialPageRoute(builder: (context) => CurrentPosMap())
                   );
                 },
               ),
@@ -39,7 +39,6 @@ class MainPage extends StatelessWidget {
                 onTap: () async {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => LocationWidget() )
-                    // MaterialPageRoute(builder: (context) => MapWidget2(pos: LatLng(37.70, 127.586)))
                   );
                 },
               ),
@@ -49,7 +48,7 @@ class MainPage extends StatelessWidget {
                 trailing: const Icon(Icons.navigate_next),
                 onTap: () async {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => MapWidget3())
+                      MaterialPageRoute(builder: (context) => SavedPosMap())
                   );
                 },
               ),

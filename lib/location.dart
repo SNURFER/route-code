@@ -1,11 +1,7 @@
-
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:hmc_map/map3.dart';
-
-import 'map2.dart';
+import 'specific_pos_map.dart';
 
 class LocationWidget extends StatelessWidget {
   double longitude = 0;
@@ -45,7 +41,7 @@ class LocationWidget extends StatelessWidget {
             ElevatedButton(
               onPressed: (){
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => MapWidget2(pos: LatLng(longitude, latitude)))
+                    MaterialPageRoute(builder: (context) => SpecificPosMap(pos: LatLng(longitude, latitude)))
                 );
               },
               child: Container(
